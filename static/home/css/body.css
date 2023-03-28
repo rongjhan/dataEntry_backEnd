@@ -1,0 +1,8 @@
+.content{
+    padding:0 30px;
+    padding-top:calc(var(--nav-height) + 30px);
+    width:100%;
+    min-height:100vh;
+    height:600px;
+    
+}

@@ -1,0 +1,529 @@
+/*!*******************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/compenent/projectConfModal/modalHeader/modalHeader.css ***!
+  \*******************************************************************************************************************************************/
+.modalHeader_modalHeader--Dv95R{
+    /* height:40px; */
+    width:100%;
+    background-color: #95afc0;
+    text-align:left;
+    /* line-height:40px; */
+    vertical-align: middle;
+}
+
+.modalHeader_panel--Cwx1y {
+    float: right;
+    vertical-align: center;
+    height: 100%;
+}
+
+.modalHeader_panel--Cwx1y::after {
+    content: "";
+    width: 15px;
+    display: inline-block;
+}
+
+.modalHeader_icon--MIs0w{
+    width:18px
+}
+
+.modalHeader_button--q65jX{
+    height: 100%;
+    text-align:center;
+    vertical-align: middle;
+    display:inline-block;
+    user-select:none;
+    -ms-user-select:none;
+    padding:5px 5px 0px 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+
+.modalHeader_button--q65jX:hover{
+    background-color: #dfe6e9;
+}
+
+.modalHeader_button--q65jX:active{
+    background-color: inherit;
+}
+
+
+.modalHeader_toggle--NrMTv{
+    height:100%;
+    padding:5px;
+    width:85px;
+    text-align:center;
+    border-right:1px solid black;
+    display:inline-block;
+    user-select:none;
+    -ms-user-select:none;
+    cursor: pointer;
+    font:18px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+
+.modalHeader_active--gElUP{
+    background-color: #dfe6e9;
+}
+
+
+.modalHeader_switch--ZVF4w{
+    text-align:center;
+    vertical-align: middle;
+    display:inline-block;
+    user-select:none;
+    -ms-user-select:none;
+    padding:5px 5px 0px 5px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+
+
+.modalHeader_switch--ZVF4w:hover{
+    background-color: #dfe6e9;
+}
+
+.modalHeader_switch--ZVF4w:active{
+    background-color: inherit;
+}
+
+
+
+/*!*************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/compenent/projectConfModal/modal.css ***!
+  \*************************************************************************************************************************/
+.modal_modal--sBtjM {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.modal_hide--TrOY5 {
+    display: none;
+}
+
+.modal_modalContent--W57Gp {
+    flex: 1;
+    background-color: #fff;
+    display: flex;
+    min-height: 400px;
+    /* height: calc(100% - 31px); */
+    width: 100%;
+}
+
+
+/*!********************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/compenent/projectConfModal/modalContent/configBlock/configBlock.css ***!
+  \********************************************************************************************************************************************************/
+.configBlock_block--gswFH{
+    padding: 0;
+    background-color: white;
+    /* flex-shrink: 1; 設置Shrink不影響js設置width,但此處不想用此效果*/
+    /* flex-grow:1;  設置flex-grow將無法用js調整style.width*/
+    min-width: 145px;
+    /* max-width: 33%; */
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    position: relative;
+    border:1px solid black;
+    margin-right: 3px;
+    overflow: hidden;
+}
+
+.configBlock_block--gswFH:last-child{
+    margin-right: 0px;
+}
+
+.configBlock_blockHeader--yIb2p{
+    width: 100%;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    background-color: #c7ecee;
+}
+
+.configBlock_resizer--ZE74Q{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -10px;
+    /* margin-right: -10px; */
+    width: 16px;
+    height: 100%;
+    opacity: 1;
+    
+}
+
+.configBlock_resizer--ZE74Q:hover{
+    cursor: col-resize;
+}
+.configBlock_clickEffect--BQ7G2{
+    cursor: pointer;
+    display: inline-block;
+}
+.configBlock_clickEffect--BQ7G2:hover{
+    background-color: rgb(155, 151, 151);
+}
+
+.configBlock_clickEffect--BQ7G2:active{
+    background-color: inherit;
+}
+
+.configBlock_deleteItem--lvLjV{
+    position: absolute;
+    padding: 0px 3px;
+    vertical-align: middle;
+    margin-top: -2px;
+    height: 100%;
+    border-radius: 0px 3px 3px 0px;
+    background-color: inherit;
+}
+
+.configBlock_formArea--sgnWP{
+    display: block;
+    text-align: left;
+    width: 98%;
+    margin: auto;
+}
+
+.configBlock_configItem--VEpVa{
+    background-color: #dfe6e9;
+    display:inline-block;
+    padding:2px;
+    height: 20px;
+    vertical-align: middle;
+    border-radius: 3px;
+    margin:3px 23px 0 0 ;
+    line-height: 20px;
+    position: relative;
+}
+
+.configBlock_configItem--VEpVa:hover{
+    background-color: #c8cdcf;
+    cursor: pointer;
+}
+
+.configBlock_select--HQgf9{
+    cursor:pointer;
+    border-radius: 2px;
+    height:30px;
+}
+
+.configBlock_producerSelect--tsh2V{
+    width:100%;
+    
+}
+
+.configBlock_configEditor--ct6OT{
+    /* border:1px solid black; */
+    border-radius:5px;
+    width:95%;
+    margin:20px auto 0 auto;
+    padding:5px;
+    /* max-height:80%;
+    height:430px; */
+    overflow-y:auto;
+    flex:1
+}
+
+.configBlock_editorHead--KVSKS{
+    text-align: right;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -30px;
+    width: 97%;
+}
+
+textarea{
+    width:98%;
+    min-height: 70px;
+    resize: vertical;
+}
+
+input{
+    max-width: 100%;
+}
+
+::placeholder {
+    color: #686de0;
+
+}
+
+input:-ms-input-placeholder{
+    color: #686de0;
+}
+
+
+.configBlock_pseudoButton--BHXf5{
+    background-color: #eff4f7;
+    display: inline-block;
+    padding:3px 7px;
+    cursor: pointer;
+    border-radius: 3px;
+    border:1px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.configBlock_pseudoButton--BHXf5:hover{
+    background-color: #dfe6e9;
+}
+
+.configBlock_pseudoButton--BHXf5::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width:40%;
+    display: inline-block;
+    transform: skewX(-45deg) translateX(-50px);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.configBlock_pseudoButton--BHXf5:hover::before {
+    transform: skewX(-45deg) translateX(300px);
+    transition: all 0.7s ease-in-out ;
+}
+
+
+.configBlock_shine--ehYDg{
+    overflow: hidden;
+    position: relative;
+}
+
+.configBlock_shine--ehYDg::before{
+    content: "";
+    position: absolute;
+    height: 130%;
+    width:40%;
+    display: inline-block;
+    -ms-transform: skewX(-9deg) translateX(-7px);
+    transform: skewX(-9deg) translateX(-7px);
+    background-color: rgba(255, 255, 255, 0.8);
+    /* ie 無法接受 #ffffff80的形式 */
+    animation-name: configBlock_shine--ehYDg;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+}
+
+@keyframes configBlock_shine--ehYDg{
+    0%{transform: skewX(-9deg) translateX(-7px);}
+    100%{transform: skewX(-9deg) translateX(20px);}
+}
+
+/*!********************************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/compenent/projectConfModal/modalContent/outputBlock/outputBlock.css ***!
+  \********************************************************************************************************************************************************/
+.outputBlock_block--YUAPd{
+    flex:2;
+    height:100%;
+    /* background-color: #c7ecee; */
+    border:1px solid black;
+    margin-right: 3px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* min-width: 120px; */
+    /* min-width: 363px; */
+}
+
+.outputBlock_block--YUAPd:last-child{
+    margin-right: 0px;
+}
+
+.outputBlock_menu--ZhX5H{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 5px 5px;
+    min-width:110px;
+    border-left: 1px solid black;
+    cursor: pointer;
+    user-select: none;
+    -ms-user-select: none;
+    text-align: center;
+    
+    /* pointer-events: none; */
+    /* background-color: #dcdde1; */
+
+}
+
+.outputBlock_spanIcon--zUtUm{
+    /* transform: rotateZ(90deg); */
+    width: 8px;
+}
+
+.outputBlock_menuSpan--BHcYo{
+    padding: 0px 6px;
+    border-radius: 2px;
+    margin-left: 5px;
+    float: right;
+    /* pointer-events: none; */
+}
+
+.outputBlock_menuSpan--BHcYo:hover{
+    background-color: #f5f6fa;
+
+}
+
+.outputBlock_menuSpan--BHcYo:active{
+    background-color: inherit;
+}
+
+.outputBlock_listBlock--TW6zm{
+    z-index: 1;
+    position: absolute;
+    top:28px;
+    left: -1px;
+    width: 100%;
+    background-color: #dfe6e9;
+    border:1px solid black;
+    border-radius: 1px;
+    max-height: 300px;
+    overflow-y:auto ;
+}
+
+.outputBlock_listBlock--TW6zm::-webkit-scrollbar {
+    width: 0px;
+}
+
+.outputBlock_list--T2A3T{
+    width:100%;
+    list-style-type:none;
+    height: 28px;
+    line-height: 28px;
+    background-color: inherit;
+    vertical-align: middle;
+    border-bottom:1px solid black;
+    text-align: center;
+}
+
+.outputBlock_list--T2A3T:last-child{
+    border: none;
+}
+.outputBlock_list--T2A3T:hover{
+    background-color: #b2bec3;
+}
+
+
+.outputBlock_item--YCO5A{
+    width: 98%;
+    /* height: 478px; */
+    height: 95%;
+    margin: 12px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow-y:auto ;
+    user-select: none;
+    -ms-user-select: none;
+}
+
+
+.outputBlock_wheel--zWTQe{
+    background-color: rgba(231, 236, 238, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    /* right:0; */
+    opacity: 0.8;
+    width: 30px;
+    cursor: ns-resize;
+    opacity: 0;
+}
+
+.outputBlock_wheel--zWTQe:hover{
+    opacity:0.8
+}
+
+.outputBlock_wheelButton--K0QEF{
+    width: 20px;
+    margin: 5px auto;
+    cursor:pointer;
+    padding: 2px 3px;
+    border-radius: 2px;
+}
+
+.outputBlock_wheelButton--K0QEF:hover{
+    background-color: #ffffff;
+}
+/*!**************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/compenent/projectItem/projectItem.css ***!
+  \**************************************************************************************************************************/
+/* .list{
+
+} */
+.projectItem_projectList--zZ_82{
+    text-align: middle;
+}
+
+.projectItem_projectItem--u_fW1{
+    cursor: pointer;
+    display: inline-block;
+    height: 200px;
+    width: 180px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin:30px 0 0 50px;
+    overflow: hidden;
+    background-color: #84817a;
+    text-align: center;
+    box-shadow: 0 0 10px 5px rgb(212, 211, 211);
+}
+/*!******************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./src/compenent/app.css ***!
+  \******************************************************************************************************/
+*::-webkit-scrollbar {
+    width: 6px;   /*set vertical scrollbar width*/
+    height: 6px; /*set horizon scrollbar height*/
+
+}
+
+*::-webkit-scrollbar :hover{
+    width: 12px;
+    height: 12px; 
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #b2bec3;
+    border-radius: 20px;
+    /* border: 3px solid orange; */
+}
+
+*{
+    -ms-overflow-style:-ms-autohiding-scrollbar;
+}
+
+#app_root--IIzOM{
+    overflow: hidden;
+    background-image: url(..//pic/Close.png);
+    width: 600px;
+    height: 600px;
+}
+
+
+/* html{overflow: hidden;} */

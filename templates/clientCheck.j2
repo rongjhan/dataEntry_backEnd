@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://appsforoffice.microsoft.com/lib/beta/hosted/office.js"></script>
+    <script>
+        Office.onReady().then(function () {
+            let client,subtype
+            switch (Office.context.platform) {
+                case undefined:
+                    client = "web"
+                case "PC": //excelDesktop
+                    client = "office"
+                case "OfficeOnline": //excelOnline
+                    client = "office"
+                default:
+                    client = "web"
+            }
+
+            document.querySelector("#platform").value=client
+            document.querySelector("#project").value={{"\""+project+"\""}}
+            document.querySelector("form").submit()
+        })
+    </script>
+</head>
+
+<body>
+    <form action="./editor/editor.html" method="post" style="display: none;">
+        <input type="text" name="platform" id="platform">
+        <input type="text" name="project" id="project">
+        <!-- wtf form -->
+    </form>
+</body>
+
+</html>

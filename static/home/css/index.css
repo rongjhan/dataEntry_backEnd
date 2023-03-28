@@ -1,0 +1,47 @@
+.folder_folderList--AgVux{
+    display:flex;
+    justify-content:space-around;
+}
+
+
+
+.folder_folder--PatwX{
+    --folder-height:150px;
+    --name-height:30px;
+
+    height:var(--folder-height);
+    width:120px;
+    min-width: 100px;
+    
+    border:3px solid #F0EBEB;
+    border-radius:12px;
+}
+
+
+
+.folder_folder--PatwX.folder_placeHolder--MtRDX{
+        visibility:hidden;
+    }
+
+
+
+.folder_folder--PatwX >.folder_screenShot--wdaVc{
+        padding:20px;
+        height:calc(var(--folder-height) - var(--name-height));
+        line-height:calc(var(--folder-height) - var(--name-height));
+        text-align:center;
+    }
+
+
+
+.folder_folder--PatwX >.folder_screenShot--wdaVc >img{
+            width:60px;
+        }
+
+
+
+.folder_folder--PatwX >.folder_name--qCTZP{
+        height:var(--name-height);
+        text-align:center;
+        padding:5px 0;
+    }

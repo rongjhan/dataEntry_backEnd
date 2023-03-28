@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        html{
+            height:100%;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height:100%;
+            background-image: url("https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjU2NzA0MTA&ixlib=rb-1.2.1&q=80");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top;
+        }
+
+        .modal {
+            border-radius: 5px;
+            background-color: hsla(0, 0%, 100%, .7);
+            width: 45%;
+            height: 300px;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            box-shadow: 5px 5px 23px 4px #C0BABC;
+            vertical-align: middle;
+        }
+
+        .modal::before {
+            content: ' ';
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+            margin-right: -0.25em;
+            /* Adjusts for spacing */
+        }
+
+        label {
+            width: auto;
+            font-size: 15px;
+            display: block;
+            text-align: center;
+        }
+
+        input {
+            display: block;
+            border-radius: 5px;
+            width: 58%;
+            height: 30px;
+            margin: auto;
+            border: 1px solid grey;
+        }
+
+        input:focus {
+            outline: none;
+
+        }
+
+        button {
+            display: block;
+            border-radius: 5px;
+            width: 20%;
+            min-height: 35px;
+            margin: auto;
+            font-size: 14px;
+            border: none;
+            margin-top: 20px;
+            background-color: #bdc3c7;
+            cursor: pointer;
+        }
+
+        .wrap {
+            display: inline-block;
+            width: 100%;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="modal">
+        <form class="wrap" action="/verifyLogin" method="POST">
+            <label for="account">帳號<input id="account" name="account" type="text"></label>
+            <label for="password">密碼<input id="password" name="password" type="password"></label>
+            <!-- <input type="submit" value="確認"> -->
+            <button>確認</button>
+        </form>
+    </div>
+</body>
+
+</html>
